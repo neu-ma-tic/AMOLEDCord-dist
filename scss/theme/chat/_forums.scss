@@ -1,10 +1,15 @@
 #app-mount .chat-2ZfjoI {
     .container-3wLKDe {
         background-color: var(--background-primary);
-        .mainCard-3KBsBI, .container-2nXUah, .increasedActivityMainCard-2ry6hI, .container-3arpDl, .container-2_J666 {
+        .mainCard-3KBsBI,
+        .container-2nXUah,
+        .increasedActivityMainCard-2ry6hI,
+        .container-3arpDl,
+        .container-2_J666 {
             background-color: var(--background-tertiary);
         }
-        .loadingCard-3pIp9h, .card-3BPR1O {
+        .loadingCard-3pIp9h,
+        .card-3BPR1O {
             background-color: var(--background-tertiary);
         }
         .container-1PloNW {
@@ -21,11 +26,13 @@
                 background: transparent;
             }
         }
-        .container-q2_DnH, .container-3wvkMY {
+        .container-q2_DnH,
+        .container-3wvkMY {
             &:active {
                 background-color: var(--background-modifier-active);
             }
-            &.isOpen-2Gyel_, &.isOpen-2ldXbM {
+            &.isOpen-2Gyel_,
+            &.isOpen-2ldXbM {
                 background-color: var(--background-modifier-selected);
             }
         }
