@@ -1,3 +1,11 @@
-node_modules/
-package-lock.json
-pnpm-lock.yaml
+# Packages
+/.parcel-cache
+/node_modules
+
+# Build
+/dist
+/bundle
+/src
+
+# Social images
+/preview

@@ -1,16 +1,33 @@
 {
   "name": "amoled-cord",
-  "version": "4.0.7",
+  "version": "4.1.0",
   "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
-  "type": "module",
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "repository": "github:MiniDiscordThemes/AMOLEDCord",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "contributors": [
+    "LuckFire",
+    "FedeIlLeone",
+    "Saltssaumure <themes@saltssaumure.net>"
+  ],
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev:bd": "bd-scss dev",
-    "build:bd": "bd-scss build"
+    "dev": "bd-scss dev",
+    "dev:rp": "replugged build theme --watch",
+    "dev:vc": "bd-scss dev:vc",
+    "rp": "replugged bundle theme",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "replugged release"
   },
-  "devDependencies": {
-    "bd-scss": "^2.0.14"
+  "type": "module",
+  "dependencies": {
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/node": "^20.5.9",
+    "prettier": "^3.0.3",
+    "replugged": "^4.6.2",
+    "salt-bd-scss": "^1.1.0"
   }
 }
