@@ -14,7 +14,7 @@
       "github": "LuckFire"
     }
   ],
-  "version": "4.1.0",
+  "version": "4.2.0",
   "updater": {
     "type": "store",
     "id": "dev.LuckFire.AMOLEDCord"
@@ -23,5 +23,7 @@
   "type": "replugged-theme",
   "main": "scss/main.scss",
   "source": "https://github.com/MiniDiscordThemes/AMOLEDCord",
-  "image": ["https://cdn.discordapp.com/attachments/1142305515439923260/1142306014528544788/amoled-cord.png"]
+  "image": [
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1142306014528544788/amoled-cord.png"
+  ]
 }
